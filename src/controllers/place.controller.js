@@ -5,10 +5,35 @@ sequelize.sync();
 
 
 
-controller.index = async (req,res) => {
+//controller.index = async (req,res) => {
+//    const place = await Models.Place.findAll()
+//    res.json(place)
+//}
+
+
+
+
+controller.index = async (req, res) => {
+    //opção 1) retorna todos os alunos incluindo as disciplinas e respetiva relação
     const place = await Models.Place.findAll()
-    res.json(place)
-}
+      .then(function (place) {
+        return place;
+      })
+      .catch((error) => {
+        res.status(500).send({
+          message: error.message || "Ocorreu um erro ao carregar os dados dos alunos.",
+        });
+      });
+  res.json(place);
+};
+
+
+
+
+
+
+
+
 
 
 //criar um alojamento
@@ -33,7 +58,7 @@ controller.criar = async (req, res) => {
         preco: req.body.preco,
         mail: req.body.mail,
         descricao: req.body.descricao,
-        foto: req.body.foto,
+        //foto: req.body.foto,
         user_id: user_id,
     })
     res.json(place);
@@ -102,6 +127,8 @@ controller.remover = async (req, res) => {
 controller.alterar = async (req, res) => {
     const {id,user_id} = req.params
     const Local = await Models.Place.findByPk(user_id)
+
+    console.log(req.body);
 
     if(!Local){
         return res.status(400).json({

@@ -38,7 +38,7 @@ validation.criar_validation = (req,res,next)=>{
             .max(9999)
             .required(),
 
-            email: Joi.string()
+            mail: Joi.string()
             .email({ minDomainSegments: 2, tlds: { allow: ['com', 'net', 'pt', 'org', 'outlook'] } }),
 
             descricao: Joi
@@ -47,11 +47,11 @@ validation.criar_validation = (req,res,next)=>{
             .max(100)
             .required(),
 
-            foto: Joi
-            .string() 
-            .min(2)
-            .max(40)
-            .required(),
+            //foto: Joi
+            //.string() 
+            //.min(2)
+            //.max(40)
+            //.required(),
           
     })
 
@@ -96,11 +96,11 @@ validation.criar_validation = (req,res,next)=>{
             res.status(403).send({
                 erro: "A descrição inserida não se encontra correta!"
             })
-            break
-            case'foto':
-            res.status(403).send({
-                erro: "A imagem inserida não foi submetida corretamente!"
-            })
+            //break
+            //case'foto':
+            //res.status(403).send({
+            //    erro: "A imagem inserida não foi submetida corretamente!"
+            //})
             break
         }   
         }   else {
@@ -155,10 +155,10 @@ validation.alterar_validation = (req,res,next)=>{
             .max(100),
             
 
-            foto: Joi
-            .string() 
-            .min(2)
-            .max(40),
+            //foto: Joi
+            //.string() 
+            //.min(2)
+            //.max(40),
             
           
     })
@@ -204,11 +204,11 @@ validation.alterar_validation = (req,res,next)=>{
             res.status(403).send({
                 erro: "A descrição inserida não se encontra correta!"
             })
-            break
-            case'foto':
-            res.status(403).send({
-                erro: "A imagem inserida não foi submetida corretamente!"
-            })
+            //break
+            //case'foto':
+            //res.status(403).send({
+            //    erro: "A imagem inserida não foi submetida corretamente!"
+            //})
             break
         }   
         }   else {

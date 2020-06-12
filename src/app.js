@@ -3,7 +3,10 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const app = express()
 const port = 3001
+const morgan = require("morgan")
 
+
+app.use(morgan("dev"))
 app.use(cors())
 
 //módulos body-parser

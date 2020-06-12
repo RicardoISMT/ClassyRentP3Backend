@@ -21,7 +21,7 @@ const placeValidation = require ("../middleware/place.validation");
 //rotas relacionadas com o alojamento que mostra todos os existentes na base de dados
 
 //buscar todos os alojamentos inseridos
-router.get('/alojamento', placeController.index)
+router.get('/alojamentos', placeController.index)
 
 router.get('/alojamento/:user_id/buscar', placeController.buscar);
 

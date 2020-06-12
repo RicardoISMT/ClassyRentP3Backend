@@ -12,7 +12,7 @@ let Place = db.define('place', {
     preco: { type: sequelize.INTEGER },
     mail: { type: sequelize.STRING },
     descricao: { type: sequelize.TEXT },
-    foto: { type: sequelize.STRING }
+    //foto: { type: sequelize.STRING }
     
 },
     {
