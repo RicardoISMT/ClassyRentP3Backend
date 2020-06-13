@@ -12,6 +12,7 @@ Email: Ricardomalva97@hotmail.com
 Nome: Frederico Fonseca
 ```
 [GitHub](https://github.com/fffonseca)
+
 <br>
 
 ## Identificação da Instituição de Ensino
@@ -29,6 +30,7 @@ Unidade Curricular: Programação III
 Ano Curricular: 2º Semestre 3º Ano
 Ano Lectivo: 2019/2020
 ```
+
 <br>
 
 ## Dependências que foram utilizadas no projeto
@@ -42,6 +44,7 @@ mysql2                  # MySQL Client para o Node.js
 nodemon                 # Restarting the Node Application
 sequelize               # Multi Dialect ORM for Node.JS
 ```
+
 <br>
 
 ## License
