@@ -26,7 +26,7 @@ Ensino Superior: Instituto Superior Miguel Torga
 ## Licenciatura [Multimédia](https://ismt.pt/ensino/oferta-educativa/licenciaturas/multimedia/)
 ```bash
 Unidade Curricular: Programação III
-Ano Curricular: 2º Semestre do 3º Ano
+Ano Curricular: 2º Semestre 3º Ano
 Ano Lectivo: 2019/2020
 ```
 <br>
@@ -45,4 +45,7 @@ sequelize               # Multi Dialect ORM for Node.JS
 <br>
 
 ## License
+```bash
+The MIT License - Open Source Initiative
+```
 [MIT](https://choosealicense.com/licenses/mit/)
