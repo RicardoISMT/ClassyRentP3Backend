@@ -10,9 +10,10 @@ Email: Ricardomalva97@hotmail.com
 Identificação da Instituição de Ensino
 ```bash
 Ensino Superior: Instituto Superior Miguel Torga
+```
 [Facebook ISMT](https://www.facebook.com/ismtcoimbra/)
 [Website ISMT](https://www.ismt.pt/)
-```
+
 
 
 Licenciatura [Multimédia](https://ismt.pt/ensino/oferta-educativa/licenciaturas/multimedia/)
@@ -37,6 +38,4 @@ sequelize               # Multi dialect ORM for Node.JS
 
 
 License
-```bash
 [MIT](https://choosealicense.com/licenses/mit/)
-```
