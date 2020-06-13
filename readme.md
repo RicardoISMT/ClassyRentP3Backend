@@ -1,5 +1,5 @@
 
-Identificação do aluno
+## Identificação do aluno
 ```bash
 Nome: Ricardo Malva
 Número: 10985 
@@ -7,7 +7,14 @@ Email: Ricardomalva97@hotmail.com
 ```
 <br>
 
-Identificação da Instituição de Ensino
+## Identificação do docente
+```bash
+Nome: Frederico Fonseca
+```
+[GitHub](https://github.com/fffonseca)
+<br>
+
+## Identificação da Instituição de Ensino
 ```bash
 Ensino Superior: Instituto Superior Miguel Torga
 ```
@@ -16,26 +23,26 @@ Ensino Superior: Instituto Superior Miguel Torga
 
 <br>
 
-Licenciatura [Multimédia](https://ismt.pt/ensino/oferta-educativa/licenciaturas/multimedia/)
+## Licenciatura [Multimédia](https://ismt.pt/ensino/oferta-educativa/licenciaturas/multimedia/)
 ```bash
 Unidade Curricular: Programação III
-Ano Curricular: 3º Ano 2º Semestre
+Ano Curricular: 2º Semestre do 3º Ano
 Ano Lectivo: 2019/2020
 ```
 <br>
 
-Dependências que foram utilizadas no projeto
+## Dependências que foram utilizadas no projeto
 ```bash
-@hapi/joi               # Validação de dados
-body-parser             # Node.js body parsing middleware
-cors                    # Middleware para activar o CORS
+@hapi/joi               # Validação de Dados
+body-parser             # Node.js Body Parsing Middleware
+cors                    # Middleware para Activar o CORS
 express                 # Framework Javascript 
-morgan                  # Logger middleware function para pedidos HTTP
-mysql2                  # MySQL client para o Node.js
-nodemon                 # Restarting the Node application
-sequelize               # Multi dialect ORM for Node.JS
+morgan                  # Logger Middleware Function para Pedidos HTTP
+mysql2                  # MySQL Client para o Node.js
+nodemon                 # Restarting the Node Application
+sequelize               # Multi Dialect ORM for Node.JS
 ```
 <br>
 
-License
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
